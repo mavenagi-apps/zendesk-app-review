@@ -1,0 +1,18 @@
+{
+  "app": {
+    "name": "Maven AGI Copilot",
+    "short_description": "The generative AI-powered copilot for your support team",
+    "long_description": "Maven harnesses the power of generative AI to enhance the customer support experience by answering questions instantly, suggesting follow-ups, taking actionable steps, and now, seamlessly providing native translation support and conducting research to help with agent training. Here's how Maven makes a difference:\n\n* Reduce Costs: Automate support workflows with AI agents to cut support expenses by up to 75%.\n* Enhance Customer Experience: Deliver personalized, instant support in the customer's preferred language, ensuring delight with speed, accuracy, and inclusivity.\n* Empower Support Teams: The Agent Copilot assists human agents in crafting precise responses, seamlessly translating them, and providing insights from research to accelerate agent training and skill-building.\n* Proactive and Predictive Support: Use AI to anticipate customer needs, offer proactive solutions, and prevent issues before they occur—all while providing multilingual support.\n* Boost Revenue: Transform support operations into a revenue-driving engine through effective cross-selling and upselling strategies, now enhanced with culturally relevant messaging.\n* Streamline Agent Training: Leverage AI-driven research to identify knowledge gaps, suggest personalized training materials, and provide actionable feedback, empowering agents to deliver exceptional service.",
+    "installation_instructions": "To setup Maven follow the instructions below:\n\n1. Setup an account on www.mavenagi.com.\n2. Visit Apps and install the Zendesk Copilot application in the Agent Designer.\n3. In Zendesk, install the Maven AGI Copilot application and enter your organization and agent IDs.\n\nThe Maven Agent copilot will be available in the Zendesk ticket sidebar.",
+    "parameters": {
+      "organizationId": {
+        "label": "Organization ID",
+        "helpText": "The organization ID located in the Maven AGI dashboard"
+      },
+      "agentId": {
+        "label": "Agent ID",
+        "helpText": "The agent ID located in the Maven AGI dashboard"
+      }
+    }
+  }
+}

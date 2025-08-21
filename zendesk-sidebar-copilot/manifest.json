@@ -1,0 +1,34 @@
+{
+  "name": "Maven AGI Copilot",
+  "author": {
+    "name": "Maven AGI, Inc.",
+    "email": "support@mavenagi.com",
+    "url": "https://www.mavenagi.com"
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "signedUrls": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "https://zendesk-copilot.onmaven.app/api/copilot",
+        "flexible": true
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "organizationId",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "agentId",
+      "type": "text",
+      "required": true
+    }
+  ],
+  "termsConditionsURL": "https://www.mavenagi.com/terms-of-service",
+  "version": "2.0.0",
+  "frameworkVersion": "2.0"
+}
