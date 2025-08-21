@@ -1,0 +1,15 @@
+# Project Structure
+
+The project is contains a React, NextJS application
+
+## UI Components - ZendeskCopilot
+- **Root Page**: src/app/copilot-v2/page.tsx
+- **React Component**: src/app/copilot-v2/ZendeskCopilotV2.tsx
+
+## Server Routes
+- **Directory**: src/app/api
+
+## ZD App
+
+- **Directory**: zendesk-sidebar-copilot
+- **Manifest**: zendesk-sidebar-copilot/manifest.json
