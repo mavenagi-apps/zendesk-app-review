@@ -12,13 +12,10 @@ export interface Metadata<T> {
   settings: T
 }
 
-export type AppLocation = 'deal_card' | 'lead_card' | 'person_card' | 'company_card' | 'modal'
 
 export interface Context {
   // eq. "sell"
   product: string
-  // location where the app is supposed to show up
-  location: AppLocation
   // uniq instance id
   instanceGuid: string
   // account info
